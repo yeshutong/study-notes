@@ -1,6 +1,6 @@
-# 叶舒桐 (Ye Shutong) 的 C++ 学习仓库
+# 叶舒桐 (Ye Shutong) 学习仓库
 
-个人 C++ 学习笔记、代码练习与知识整理。
+个人学习笔记、代码练习与知识整理，涵盖软件开发各方面的学习与实践。
 
 ---
 
@@ -8,11 +8,16 @@
 
 ```
 yeshutong-notes/
-├── README.md          # 本说明文件
-├── LICENSE            # MIT 许可证
-├── notes/             # 学习笔记（可手动创建）
-├── code/              # 代码练习（可手动创建）
-└── resources/         # 参考资料、链接等（可手动创建）
+├── README.md              # 本说明文件
+├── LICENSE               # MIT 许可证
+├── architecture/         # 架构设计学习笔记
+│   ├── docs/             # 架构文档、设计模式
+│   └── resources/       # 相关资源与链接
+├── cpp/                  # C++ 学习与练习
+│   ├── notes/            # C++ 笔记
+│   ├── code/             # C++ 代码练习
+│   └── projects/         # C++ 项目
+└── resources/           # 通用参考资料
 ```
 
 ---
@@ -59,9 +64,12 @@ git push
 
 ### 添加新笔记
 
-1. 在 `github\yeshutong-notes` 目录下新建文件或文件夹
-2. 例如：`notes\cpp_basics.md` 或 `code\hello.cpp`
-3. 按上方"日常编辑与推送"步骤提交
+1. 根据内容类型，将文件放入对应文件夹
+   - 架构设计内容 → `architecture/docs/`
+   - C++ 笔记 → `cpp/notes/`
+   - C++ 代码 → `cpp/code/`
+   - C++ 项目 → `cpp/projects/`
+2. 按上方"日常编辑与推送"步骤提交
 
 ### 从 GitHub 获取最新内容
 
